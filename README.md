@@ -7,13 +7,14 @@ This is an interpreter for my own programming language
 	set 1:101
 	set 2:108
 	set 3:111
-  	set 4:32
-  	set 5:87
-  	set 6:114
-  	set 7:100
-  	
-	call out(0, 1, 2, 2, 3, 4, 5, 3, 6, 2, 7)
-  	call sleep(0)
+	set 4:32
+	set 5:87
+	set 6:114
+	set 7:100
+	set 8:10
+
+	call out(0, 1, 2, 2, 3, 4, 5, 3, 6, 2, 7, 8)
+	call sleep(%0)
 
 
 ## Instructions:
